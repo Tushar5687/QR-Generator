@@ -5,7 +5,7 @@ const qrImage = document.getElementById('qrImage');
 const downloadBtn = document.getElementById('downloadBtn');
 
 // Generate QR Code
-generateBtn.addEventListener('keydown', () => {
+generateBtn.addEventListener('click', () => {
     let inputValue = inputBox.value.trim();
     if (!inputValue) return; // Exit if input is empty
     
